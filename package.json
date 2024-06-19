@@ -1,6 +1,6 @@
 {
-	"name": "monaco-sql-languages",
-	"version": "0.12.1",
+	"name": "monaco-sql-languages-oushudb",
+	"version": "0.12.1-3",
 	"description": "SQL languages for the Monaco Editor, based on monaco-languages.",
 	"scripts": {
 		"build": "mrmdir ./esm && tsc -p ./tsconfig.esm.json",
@@ -31,7 +31,7 @@
 		"url": "https://github.com/DTStack/monaco-sql-languages/issues"
 	},
 	"publishConfig": {
-		"registry": "https://registry.npmjs.org/"
+		"registry": "http://npm.oushu.com:14837/"
 	},
 	"devDependencies": {
 		"@types/mocha": "^9.1.0",
@@ -61,7 +61,7 @@
 		}
 	},
 	"dependencies": {
-		"dt-sql-parser": "4.0.0-beta.4.16"
+		"dt-sql-parser": "npm:dt-sql-parser-oushudb@^4.0.2-5"
 	},
 	"peerDependencies": {
 		"monaco-editor": ">=0.31.0"
